@@ -1,0 +1,45 @@
+body {
+  align-items: center;
+  background-color: #404258;
+}
+.container {
+  background-color: bisque;
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  font-size: 0;
+}
+#input {
+  height: 100px;
+  width: 300px;
+  overflow: hidden;
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  font-size: 30px;
+}
+.btn {
+  font-size: 30px;
+  margin: 0;
+  width: 75px;
+  height: 75px;
+  border: none;
+  background-color: #6495ed;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #375b9e;
+}
+.equal {
+  width: 150px;
+  height: 75px;
+  font-size: 30px;
+  background-color: #f9a825;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.equal:hover {
+  background-color: #f09503;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="container">
+      <input type="text" value="" id="input" readonly />
+      <br />
+      <input class="btn" type="button" value="1" onclick="appendnumber('1')" />
+      <input class="btn" type="button" value="2" onclick="appendnumber('2')" />
+      <input class="btn" type="button" value="3" onclick="appendnumber('3')" />
+      <input class="btn" type="button" value="+" onclick="appendnumber('+')" />
+      <br />
+      <input class="btn" type="button" value="4" onclick="appendnumber('4')" />
+      <input class="btn" type="button" value="5" onclick="appendnumber('5')" />
+      <input class="btn" type="button" value="6" onclick="appendnumber('6')" />
+      <input class="btn" type="button" value="-" onclick="appendnumber('-')" />
+      <br />
+      <input class="btn" type="button" value="7" onclick="appendnumber('7')" />
+      <input class="btn" type="button" value="8" onclick="appendnumber('8')" />
+      <input class="btn" type="button" value="9" onclick="appendnumber('9')" />
+      <input class="btn" type="button" value="*" onclick="appendnumber('*')" />
+      <br />
+      <input class="btn" type="button" value="0" onclick="appendnumber('0')" />
+      <input class="btn" type="button" value="." onclick="appendnumber('.')" />
+      <input class="btn" type="button" value="x" onclick="earse()" />
+      <input class="btn" type="button" value="/" onclick="appendnumber('/')" />
+      <br />
+      <input type="button" value="=" class="equal" onclick="calculate()" />
+      <input type="button" value="Del" class="equal" onclick="clearInput()" />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
